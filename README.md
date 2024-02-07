@@ -18,3 +18,8 @@
     ![image](https://github.com/NDZL/OEMInfo-MAUI-Sample/assets/11386676/62f68370-7cc9-4c4e-a279-81bb9bc469f4)
 
 
+### Screens
+
+![image](https://github.com/NDZL/OEMInfo-MAUI-Sample/assets/11386676/861d72fd-677c-4493-b662-2650c6a307b0)
+
+
