@@ -12,14 +12,11 @@
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
+            <Entry Placeholder="Entry: Type here to test captured keys" x:Name="entryKB" />
+
 
             <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
-
-            <Label
-                Text="Welcome to &#10;.NET Multi-platform App UI"
+                Text="WORKSTATION CONNECT MAUI SAMPLE APP"
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
@@ -28,7 +25,7 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me" 
+                Text="Apply Sample WSC Configuraton" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />

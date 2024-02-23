@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.Maui.Handlers;
 
 namespace OEMInfo_MAUI_Sample
 {
@@ -15,11 +16,17 @@ namespace OEMInfo_MAUI_Sample
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+            MainPage.ModifyEntry();
+
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
         }
+
+
+
+
     }
 }
